@@ -16,7 +16,13 @@ class NavBar extends StatelessWidget {
       child: ListView(
         padding: EdgeInsets.zero,
         children: <Widget> [
-          UserAccountsDrawerHeader(accountName: Text("Ulza Paramarta"), accountEmail:Text("3103119190@student.smktelkom-pwt.sch.id") ),
+          UserAccountsDrawerHeader(
+              currentAccountPicture: CircleAvatar(
+                backgroundImage: AssetImage('assets/images/eevee.png'),
+                radius: 40,
+              ),
+              accountName: Text("Rahman"),
+              accountEmail:Text("3103119190@student.smktelkom-pwt.sch.id") ),
           ListTile(
             leading: Icon(Icons.home),
             title: Text('Home'),

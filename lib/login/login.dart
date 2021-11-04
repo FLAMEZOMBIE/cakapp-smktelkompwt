@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cakapp/main.dart';
+import 'package:cakapp/siswa.dart';
+import 'package:cakapp/walas.dart';
 
 void main() {
   runApp(Login());

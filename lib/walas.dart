@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:cakapp/shared/navbk.dart';
+import 'package:cakapp/shared/navwk.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Walas());
 }
 
-class MyApp extends StatelessWidget {
+class Walas extends StatelessWidget {
 
   @override
   Widget build(BuildContext context){
@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
       ),
       body: Center(
-        child: Text('Ulza Ganteng'),
+        child: Text('Halo Selamat Pagi'),
       ),
     );
   }
